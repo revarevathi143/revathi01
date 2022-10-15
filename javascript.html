@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> JAVA SCRIPT</title>
+    </head>
+    <body>
+        <script>
+            function validateform(){
+                var name=document.myform.username.value;
+                var pwd=document.myform.paswd.value;
+                if(name==null||name==""){
+                    alert("name can't be blank");
+                    return false;
+                }
+                else if (pwd,length<6){
+                    alert("password should be min 6");
+                    return false;
+                }
+            }
+            </script>
+        </head>
+    <body>
+        <h2 style="text-align:center;">LOGIN PAGE</h2>
+        <form name="myform" method="get" action="index.html" onsubmit="return validation()">
+        <label>Username</label>
+        <input type="text" name="User Name">
+        <br>
+        <label>Password</label>
+        <input type="Password" name="Password">
+        <br>
+        <input type="Submit">
+        </form>
+        <h1> HELLO RCEE </h1>        
+    </body>          
+</html>

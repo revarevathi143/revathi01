@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>javascript</title>
+        <script>
+         function sayhello(){
+            document.write("u r hacked");
+            alert("u r hacked")
+         }
+         </script>
+    </head>
+    <body>
+        <script>
+            var a=10;
+            var b=20;
+            var linebreak="<br />"
+            a=90;
+            c=a+b
+            document.write("sum of a and b is:");
+            document.write(c);
+            document.write(linebreak);
+            document.write("type of the c var:");
+            document.write(typeof(c));
+            document.write(linebreak);
+
+            let x=45;
+            let y=56;
+            let u="hello"
+            document.write("sum of x and y is:");
+            document.write(x+y);
+            document.write(linebreak);
+            document.write("type of the u var:");
+            document.write(typeof(u));
+            {
+                var v=45;
+                document.write(linebreak);
+            document.write(v);
+            }
+            var z;
+            z=(x>y)document.write(x):document.write(y)
+            if(x<y){
+                document.write(linebreak);
+                document.write(x);
+            }
+            let p=100;
+            let q=200;
+            let r=300;
+            document.write(linebreak);
+            document.write("the bigger value is:");
+            if(p>q && q>r)
+            {
+                document.write(p);
+            }
+            else if(q>p && q>r)
+            {
+                document.write(q);
+            }
+            else(r>p && r>q)
+            {
+                document.write(r);
+            }
+
+            document.write(linebreak)
+            let d=1;
+            while(d<10){
+                document.write(d);
+                d++;
+                document.write(linebreak);
+            }
+            document.write(d);
+            document.write(linebreak);
+            document.write(d++);
+            document.write(linebreak);
+            document.write(++d);
+            document.write(linebreak);
+            do{
+                document.write(d);
+                ++d;
+                document.write(linebreak);
+            }while(d<10);
+            let e=10;
+
+            for(e=1;e<=10;e++){
+                document.write(e)  
+                document.write(linebreak);
+            }
+        </script>
+        <form>
+            <input type="button" onclick="sayhello()" value="click me!!">
+        </form>
+        <h1>HELLO RCEE</h1>
+    </body>
+</html>
